@@ -128,6 +128,25 @@
       z-index: 2;
       margin-top: -220px;
     }
+    .about {
+      background: linear-gradient(to right, #f9f2ff, #fce4ec);
+      padding: 60px 40px;
+      text-align: center;
+      background-color: #fff;
+      margin-top: 30px;
+    }
+   .about h2 {
+     color: #6a1b9a;
+     margin-bottom: 40px;
+     font-size: 32px;
+   }
+    .about-content {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 1.7;
+      color: #555;
+    }
 
     .services, .about, .portfolio, .contact {
       padding: 60px 40px;
@@ -141,6 +160,7 @@
       gap: 30px;
     }
     .service {
+      margin-top: 30px;
       background: #fff;
       padding: 30px;
       width: 280px;
@@ -172,6 +192,7 @@
       gap: 30px;
     }
     .portfolio-item {
+      margin-top: 30px;
       width: 300px;
       background: #fff;
       padding: 20px;
@@ -195,6 +216,9 @@
       flex-direction: column;
       gap: 15px;
     }
+    .input1{
+      margin-top: 30px;
+    }
     .contact input, .contact textarea {
       padding: 12px;
       border-radius: 8px;
@@ -213,7 +237,7 @@
     footer {
       text-align: center;
       padding: 30px;
-      background: #f1f1f1;
+      background: #ffffff;
       color: #777;
     }
     @media (max-width: 768px) {
